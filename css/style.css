@@ -1,0 +1,17 @@
+ul{
+    padding: 0px;
+    margin: 0px;
+    background: #333;
+    overflow: hidden;
+}
+ul li {
+    float: left;
+    list-style-type: none;
+}
+ul li a{
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    color: #fff;
+    text-transform: capitalize;
+} 
