@@ -11,7 +11,27 @@ ul li {
 ul li a{
     text-decoration: none;
     padding: 10px 20px;
-    display: block;
+    display: inline-block;
     color: #fff;
     text-transform: capitalize;
 } 
+ul li a:hover{
+    background: red;
+}
+.dropdown_content{
+    position: absolute;
+    display: none;
+    background:#f9f9f9 ;
+    color: #333;
+    box-shadow: 0px 8px 16px 0px rgba(0,0 ,0,0.3);
+}
+.dropdown_content a{
+    display: block;
+    color: #333;
+}
+.dropdown_content a:hover{
+    background: green;
+}
+.dropdown:hover .dropdown_content{
+    display: block;
+}
